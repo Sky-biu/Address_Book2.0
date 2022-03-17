@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <welcome-file-list>
+        <welcome-file>allservlet</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>ajaxselect</servlet-name>
+        <servlet-class>com.member.servlet.ajaxselect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ajaxselect</servlet-name>
+        <url-pattern>/ajaxselect1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>allservlet</servlet-name>
+        <servlet-class>com.member.servlet.allservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allservlet</servlet-name>
+        <url-pattern>/allservlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addservlet</servlet-name>
+        <servlet-class>com.member.servlet.addservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addservlet</servlet-name>
+        <url-pattern>/addservlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteservlet</servlet-name>
+        <servlet-class>com.member.servlet.deleteservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteservlet</servlet-name>
+        <url-pattern>/deleteservlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateservlet</servlet-name>
+        <servlet-class>com.member.servlet.updateservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateservlet</servlet-name>
+        <url-pattern>/updateservlet1</url-pattern>
+    </servlet-mapping>
+
+</web-app>
